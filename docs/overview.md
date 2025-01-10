@@ -1,4 +1,4 @@
-# itSTARTS: It all starts with me.
+# itSTARTS: It all starts with me. ✨
 
 ## Overview
 
