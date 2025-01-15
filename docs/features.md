@@ -14,7 +14,7 @@
 ### Core Features
 - **Tutor Directory**: Search and view tutor profiles.
 - **Contact Tutors**: Connect with tutors via Google Chat.
-- **Progress Updates**: View summaries of their homeschooler's activities.
+- **Progress Updates**: View summaries of their homeschooler activities.
 
 ## 3. Tutors
 ### Core Features
@@ -22,3 +22,9 @@
 - **Student Management**: Track a list of students and their parents (include contact information for each).
 - **Progress Tracking**: View or comment on homeschooler reflections (if public).
 - **Google Calendar Integration**: View their own schedules for classes and availability.
+
+## 4. Admin
+### Core Features
+- Verify and approve tutor profiles.
+- View and manage all user profiles.
+- Create admin.
