@@ -1,4 +1,4 @@
-# Core Features for Each User Role
+# Core Features for Each User Role 💃🧍‍♀️🧍🕺
 
 ## 1. Homeschoolers
 ### Core Features

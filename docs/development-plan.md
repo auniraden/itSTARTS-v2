@@ -1,4 +1,4 @@
-**Project Phases and Deployment Plan for itSTARTS**
+**Project Phases and Deployment Plan for itSTARTS** 🏃‍♂️💨
 
 ---
 
