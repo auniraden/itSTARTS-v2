@@ -6,3 +6,4 @@ For detailed documentation, please refer to the [documentation](docs/) folder.
 - [Overview](docs/overview.md)
 - [Features](docs/features.md)
 - [Development Plan](docs/development-plan.md)
+- [System Structure](docs/structure.md)
