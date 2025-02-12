@@ -12,6 +12,18 @@ use App\Models\User;
 
 class AuthController extends Controller
 {
+    public function checkEmail(Request $request)
+    {
+        $request->validate(['email' => 'required' | 'email']);
+
+        $user = User::where('email', $request->email)->first();
+        if ($user) {
+            return response()->json(['exists' => true, 'message' => 'Nice! Email found!'], 200);
+        } else {
+            return response()->json(['exists' => false, 'message' => 'Email not found.', 200]);
+        }
+    }
+
     public function sendVerificationEmail(Request $request)
     {
         $request->validate(['email' => 'required|email|unique:users, email']);
