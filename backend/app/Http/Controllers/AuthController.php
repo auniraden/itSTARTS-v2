@@ -14,13 +14,13 @@ class AuthController extends Controller
 {
     public function checkEmail(Request $request)
     {
-        $request->validate(['email' => 'required' | 'email']);
+        $request->validate(['email' => 'required|email']);
 
         $user = User::where('email', $request->email)->first();
         if ($user) {
             return response()->json(['exists' => true, 'message' => 'Nice! Email found!'], 200);
         } else {
-            return response()->json(['exists' => false, 'message' => 'Email not found.', 200]);
+            return response()->json(['exists' => false, 'message' => 'Email not found.'], 200);
         }
     }
 
